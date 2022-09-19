@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Credit card</title>
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .main-part {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+            background-color: red;
+            width: 200px;
+            min-height: 100px;
+            background-color: #8EC5FC;
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+            padding: 10px
+        }
+
+        .part-2 {
+            position: absolute;
+            bottom: 7px;
+            /* display: flex; */
+        }
+
+        .part-2 p {
+            margin: 5px 0px 0px 0px;
+            padding: 0px;
+            font-size: 10px;
+        }
+
+        .part-2 h5 {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .card-company {
+            position: absolute;
+            right: 10px;
+            bottom: 5px;
+            /* align-items: flex-end; */
+        }
+
+        .chip img {
+            position: absolute;
+            top: 20px;
+        }
+
+        .compant-logo {
+            position: absolute;
+            top: 8px;
+            right: 5px;
+        }
+        .main-part{
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-part">
+        <div class="part-1">
+            <div class="chip">
+                <img src="chip_prev_ui.png" width="30" alt="chip-of-credit-card">
+            </div>
+            <div class="compant-logo">
+                <img src="axis.png" class="compant-logo" width="90" alt="">
+            </div>
+        </div>
+        <div class="part-2">
+            <div class="card-detail">
+                <h5>4641 1800 1456 3040</h5>
+                <p>G D SONANI</p>
+            </div>
+        </div>
+        <div class="card-company">
+            <img src="credit.jpg" width="30" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

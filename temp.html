@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp</title>
+</head>
+
+<body>
+    <select id="bank-name">
+        <option>Axis Bank</option>
+        <option value="">Kotak Mahindra</option>
+    </select>
+    <button onclick="fenil()">Click ME</button>
+    <img src="chip.png" id="bank_company_logo"b alt="">
+    <script>
+        function fenil() {
+
+            let bank_names = document.getElementById("bank-name").innerHTML;
+            if (bank_names=="Axis Bank") {
+                alert("fenil");
+            }
+            document.getElementById("bank_company_logo").src="axis.png";
+            
+        }
+    </script>
+</body>
+
+</html>
